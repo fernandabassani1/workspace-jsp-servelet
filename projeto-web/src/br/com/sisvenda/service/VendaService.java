@@ -10,7 +10,7 @@ import br.com.sisvenda.model.Venda;
 
 
 public class VendaService {
-
+		// salvando .
 	public Venda criarVenda(Cliente cliente, Funcionario funcionario, List<Produto> produto, String data){
 		Venda venda = new Venda();
 		venda.setCliente(cliente);
