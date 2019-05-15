@@ -11,15 +11,23 @@
 </head>
 
 <body>
-	<table class = "table table hover">
+	<table class=" table table - hover">
 		<thead>
 			<tr>
 				<th scope="col"> Id </th>
-				<th scope="col"> Nome </th>
-				<th scope="col"> Documento </th>			
+				<th scope="col" style="text-align: center;"> Nome </th>
+				<th scope="col" style="text-align: center";> Documento</th>
 			</tr>
-	</thead>
+		</thead>
 	</table>
+	<tbody>
+	<c:forEach var="cliente" items="${clientes}">
+	
+	
+	</c:forEach>
+	</tbody>
+		
+	
 </body>
 </html>
 
