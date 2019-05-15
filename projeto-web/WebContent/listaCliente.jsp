@@ -11,18 +11,15 @@
 </head>
 
 <body>
-	<table class = "table table-hover">
-	<thead>
-	<tr>	
-		<th scope="col">Id</th>
-		<th scope="col">Nome</th>
-		<th scope="col">Documento</th>
-		</th>
-		
-		
-	</tr> 
+	<table class = "table table hover">
+		<thead>
+			<tr>
+				<th scope="col"> Id </th>
+				<th scope="col"> Nome </th>
+				<th scope="col"> Documento </th>			
+			</tr>
 	</thead>
-	</table>	
+	</table>
 </body>
 </html>
 
