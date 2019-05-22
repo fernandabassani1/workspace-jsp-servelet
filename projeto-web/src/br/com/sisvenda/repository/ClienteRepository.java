@@ -135,7 +135,7 @@ public class ClienteRepository {
 				cliente = new Cliente();
 				cliente.setId(rs.getInt("id"));
 				cliente.setNome(rs.getString("nome"));
-				cliente.setDocumento(rs.getString("cpf"));
+				cliente.setDocumento(rs.getString("documento"));
 			}
 			
 	     System.out.println(cliente);		
