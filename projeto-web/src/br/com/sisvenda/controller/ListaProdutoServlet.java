@@ -15,7 +15,7 @@ import br.com.sisvenda.model.Produto;
 import br.com.sisvenda.service.ProdutoService;
 
 
-@WebServlet("/listaProdutos")
+@WebServlet("/listaProduto")
 public class ListaProdutoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
