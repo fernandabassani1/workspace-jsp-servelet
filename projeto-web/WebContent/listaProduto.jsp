@@ -24,6 +24,8 @@
    <tr>
       <td>${produto.descricao}</td>
       <td>${produto.vlrUnitario}</td>
+      <td colspan="2"> 
+      </td>
     </tr>
    </c:forEach>
    </tbody>
